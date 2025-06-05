@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Navigation toggle
     const navToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
-    
+
     navToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
-        
+
         // Animate hamburger menu
         const hamburger = navToggle.querySelector('.hamburger');
         hamburger.classList.toggle('active');
