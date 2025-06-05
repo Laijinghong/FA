@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSync - AI-Powered Job Matching</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SkillSync</div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#try-bot">Try the Bot</a></li>
+            <li><a href="#career-tips">Career Tips</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find the Right Job. Fast.</h1>
+            <p class="subheading">AI-powered matching for skilled tradespeople and fresh graduates.</p>
+            <a href="#try-bot" class="cta-button">Try It Now</a>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="steps">
+        <h2>How It Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-user-edit"></i></div>
+                <h3>Step 1</h3>
+                <p>Enter your skills and preferences</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-robot"></i></div>
+                <h3>Step 2</h3>
+                <p>Chat with our AI bot</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                <h3>Step 3</h3>
+                <p>Get job matches instantly</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="try-bot" class="chatbot">
+        <h2>Chat with SkillSync AI</h2>
+        <div class="chat-container">
+            <div class="chat-messages">
+                <div class="message bot">
+                    Hello! I'm SkillSync AI. Tell me about your skills and job preferences.
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." aria-label="Chat message">
+                <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="career-tips" class="tips">
+        <h2>Career Tips</h2>
+        <div class="tips-container">
+            <div class="tip-card">
+                <i class="fas fa-file-alt"></i>
+                <h3>Resume Advice</h3>
+                <p>Learn how to craft a compelling resume that stands out to employers.</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-comments"></i>
+                <h3>Interview Practice</h3>
+                <p>Prepare for interviews with our AI-powered practice sessions.</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Industry Insights</h3>
+                <p>Stay updated with the latest trends and opportunities in your field.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SkillSync. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
